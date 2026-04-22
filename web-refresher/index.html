@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Refresher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>My Simple Webpage</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<main>
+  <h2>My List</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <h2>Form</h2>
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="formMessage"></p>
+
+  <h2>JavaScript Demo</h2>
+  <p id="text">Original Text</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <h3>Counter: <span id="count">0</span></h3>
+  <button onclick="increment()">Increase</button>
+</main>
+
+<footer>
+  <p>© 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
